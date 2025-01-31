@@ -14,10 +14,15 @@ Before running the Terraform configuration, ensure the following tools are insta
 - **Terraform**: [Download Terraform](https://www.terraform.io/downloads.html)
 - **AWS CLI** (for AWS users): [Install AWS CLI](https://aws.amazon.com/cli/)
 
+
 ## Setup Instructions
-1. Create a Directory for the Terraform Project
-mkdir terraform-project
-cd terraform-project
+
+1. **Create a Directory for the Terraform Project**  
+   Run the following commands to create and navigate into the project directory:
+   ```bash
+   mkdir terraform-project
+   cd terraform-project
+
 ## 2. Create Terraform Configuration Files
 
 Inside the project directory, create the following files:
