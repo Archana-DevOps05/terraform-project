@@ -15,24 +15,31 @@ Before running the Terraform configuration, ensure the following tools are insta
 - **AWS CLI** (for AWS users): [Install AWS CLI](https://aws.amazon.com/cli/)
 
 ## Setup Instructions
+1. Create a Directory for the Terraform Project
+mkdir terraform-project
+cd terraform-project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Archana-DevOps05/terraform-project.git
-   ```
-2. Navigate to the project directory:
+2. Create Terraform Configuration Files
+Inside the project directory, create the following files:
+provider.tf – Defines the AWS provider.
+ec2.tf – Contains EC2 instance configurations.
+variables.tf – Stores variable definitions.
+output.tf – Defines the outputs (such as instance IPs).
+
+
+3. Navigate to the project directory:
    ```bash
    cd terraform-project
    ```
-3. Initialize Terraform:
+4. Initialize Terraform:
    ```bash
    terraform init
    ```
-4. Plan the deployment:
+5. Plan the deployment:
    ```bash
    terraform plan
    ```
-5. Apply the configuration:
+6. Apply the configuration:
    ```bash
    terraform apply
    
