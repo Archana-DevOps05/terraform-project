@@ -36,5 +36,6 @@ Before running the Terraform configuration, ensure the following tools are insta
    ```bash
    terraform apply
    
-When prompted, confirm by entering yes
-
+When prompted, confirm by entering "yes".
+![staticwebsite](image.png)
+![staticwebsite](image2.png)
